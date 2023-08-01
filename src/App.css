@@ -1,0 +1,25 @@
+.main-c {
+  display: flex;
+  width: 0px;
+  margin: -124px;
+  margin-top: 114px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+.bodyimg img {
+  width: 495px;
+}
+@media screen and (max-width: 700px) {
+  .bodyimg img {
+    width: 295px;
+    margin-left: 50%;
+}
+
+  .main-c {
+    flex-direction: column; /* Change flex direction to vertical for mobile view */
+    align-items: center; /* Center the content horizontally in mobile view */
+    margin-top: 16px; /* Adjust margin-top for mobile view */
+    margin-bottom: 16px; /* Adjust margin-bottom for mobile view */
+    margin-left: 0; /* Remove the left margin for mobile view */
+  }
+}

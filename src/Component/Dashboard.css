@@ -1,0 +1,106 @@
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+    margin: 25px;
+  }
+  
+  .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Adjust the justification as needed */
+    text-align: center;
+    margin-top: -10px; /* Adjust the margin-top value as needed */
+  }
+  
+  .card-content i {
+    color: #fff;
+  }
+  /* .main button {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+    border: none;
+    background-color: #f89c12;
+    color: #140000;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+    border-radius: 110px;
+  } */
+  
+  .card-content h6 {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #130101;
+  }
+  
+  .card-content h1 {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Adjust the justification as needed */
+    margin: 33%;
+    margin-left: 250px;
+    margin-top: -240px;
+  }
+  
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .lower {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 200px; /* Adjust the width as needed */
+    max-height: 180px;
+  }
+  .lead {
+    background-color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+  .rotate {
+    position: relative;
+  }
+  
+  .overlay-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* Additional styles for the overlay icon */
+  }
+  
+  /* Media query for mobile devices (up to 767px width) */
+  @media screen and (max-width: 767px) {
+    .main {
+      margin-left: 105%; /* Remove the left margin on mobile */
+      margin-top: 0; /* Remove the top margin on mobile */
+    }
+  
+    .card {
+      width: 110%; /* Set the card width to 100% to fit the screen on mobile */
+      margin-bottom: 30px; /* Add margin between cards on mobile */
+    }
+  
+    .card-content h1 {
+      font-size: 24px; /* Reduce the font size of h1 on mobile */
+    }
+  }

@@ -1,0 +1,50 @@
+.bodytext{
+    margin: 120px;
+}
+.upper h1{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+}
+.lower p{
+    color: rgb(167, 166, 164);
+}
+.img{
+    display: flex;
+    margin: -11px;
+}
+.img1 img{
+    width: 57px;
+}
+.img2 img{
+    width: 57px;
+    margin-top: 5px;
+}
+.img3 img{
+    width: 57px;
+    margin-top: 5px;
+}
+/* Media query for mobile devices (up to 767px width) */
+@media screen and (max-width: 767px) {
+    .bodytext {
+      margin: 67px; /* Reduce the margin on mobile */
+    }
+  
+    .upper h1 {
+      font-size: 24px; /* Adjust font size for h1 on mobile */
+    }
+  
+    .lower p {
+      font-size: 14px; /* Adjust font size for p on mobile */
+    }
+  
+    .img {
+      margin: -6px; /* Adjust margin on mobile */
+    }
+  
+    .img1 img,
+    .img2 img,
+    .img3 img {
+      width: 40px; /* Reduce image width on mobile */
+      margin-top: 3px; /* Adjust margin-top for images on mobile */
+    }
+  }
